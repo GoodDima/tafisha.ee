@@ -1,0 +1,245 @@
+//@font-face {  font-family: "Reforma";  src: url("http://cl.ly/2k283Q2n3C0c/download/rfg69c.ttf");}
+//@font-face {  font-family: "SegoeLight";  src: url("http://cl.ly/2T0b213r3f1i/download/SegoeWP-Light.ttf");}
+
+
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|Roboto+Condensed:400,700&subset=latin,cyrillic);
+
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+
+
+.tevent, .trasp {border-radius:2px;}
+
+
+body {
+  background: #A09CA6 url('http://f.cl.ly/items/0F01180d0w3X0k3V323K/bg1.png') no-repeat;
+  background-size: 100% 100%;
+  font-family: "PT Sans";
+  }
+  
+a {color:white; text-decoration:underline;}
+
+#topmenu { font-family: "PT Sans"; font-size: 15px;  background: rgba(50, 36, 57, 0.1); padding-bottom:10px}
+#topmenu .row ul {list-style-type: none; padding:0; margin:10px 0px 30px 0;}
+#topmenu .row ul li {list-style-type: none; }
+
+#tpopup {
+  background: rgba(50, 36, 57, 0.7);  
+  }
+
+#topmenu .row ul li a {  
+  text-decoration:none;
+  border-bottom:1px solid rgba(255,255,255,0.4);
+  line-height:110%;
+  text-shadow: 0px 1px 0px rgba(0,0,0,0.1);
+  display:inline-block;
+  }
+
+h1 {
+  font-weight: normal; font-size: 30px; line-height: normal; font-family: "Roboto Condensed";
+  color:white;
+  line-height:80%;
+  //border:1px solid red;
+  height:36px;
+  }
+
+h1 a {
+//border:1px solid blue;
+color:white;
+  text-decoration:none;
+  border-bottom:2px solid rgba(255,255,255,0.7);
+  line-height:100%;
+  text-shadow: 0px 1px 0px rgba(0,0,0,0.1);
+  display:inline-block;
+
+  }
+
+
+h4 {
+  font-weight: normal; font-size: 36px; line-height: normal; font-family: "Roboto Condensed"; 
+  margin-bottom:0;
+  background:white;
+  display:block;
+  }
+  
+h5 {
+  font-weight: bold; font-size: 16px; line-height: normal;  margin-bottom:0;
+  }
+
+
+
+
+ .tevent {
+  padding: 150px 10px 10px 10px;
+  background-size: auto 150px;
+  background-position: 50% 0;
+  background-repeat:no-repeat;
+  }
+
+
+#tcontent .tevent {
+
+  position:relative;
+  z-index:1;
+  margin: 0 0 20px 0;
+  background:white; 
+  box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+}  
+
+
+.tevent.bgsmall{
+background-size: auto auto;
+  background-position: 50% 0;  
+  padding: 80px 10px 10px 10px;  
+  }
+  
+.tevent p {
+  width:100%;
+  overflow:hidden;
+  //font-size:120%;
+  }  
+  
+
+
+/*------TRASP------*/
+
+.trasp {
+  background:#AD969B;
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: rgb(0, 0, 0);
+  /* RGBa with 0.6 opacity */
+  background: rgba(50, 36, 57, 0.1);
+  padding: 10px 10px 6px 10px;
+  margin-top: -25px;
+  position:relative;
+  z-index:0;
+  margin-bottom:20px;
+  //box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+  background-size: auto 150px;
+  background-position: 50% 0;
+  background-repeat:no-repeat;
+  overflow:hidden;
+  }  
+
+.trasp, .trasp a, .trasp a:active, .trasp a:hover, .trasp a:visited {
+  color:white;
+  }
+
+.trasp .titem {
+  margin-bottom: 4px;
+  }
+
+.trasp a {
+  text-decoration:none;
+  border-bottom:1px solid rgba(255,255,255,0.4);
+  line-height:110%;
+  display:inline-block;
+  }
+.trasp .titem .tmore {
+  border: 1px solid rgba(255,255,255,0.4);
+  display:inline-block;
+  padding:0px 8px 6px 8px;
+  border-radius:14px;
+  margin-left:45%;
+  font-family: Arial;
+  }
+
+
+
+.trasp .tgeo {
+  float:right;
+  }
+
+.trasp .ttime {
+  font-weight:bold;
+  }
+
+.trasp .ttime sup {
+  font-size:65%;
+  }
+
+/*-----IPHONE-----*/
+@media (max-width: 767px) {
+
+.tevent {
+  background:white;
+  padding: 100px 10px 10px 10px;
+  margin: 0 0 20px 0;
+  box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+  background-size: auto 140px; 
+  background-position: 50% 0;
+  background-repeat:no-repeat;
+  position:relative;
+  z-index:1;
+  } 
+
+  
+}  
+
+
+
+/*------2COLS------*/
+/*
+@media (max-width: 767px) {
+  #tcontent .row,
+  #tcontent .thumbnails {
+    margin-left: -5%;
+  } 
+  
+  [class*="span"],
+  #tcontent .uneditable-input[class*="span"],
+  #tcontent .row-fluid [class*="span"] {
+
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+  }
+  
+  
+}  
+*/
+
+.tpopupimage {
+  //padding: 0 0 0 20px;
+  text-align:center;
+  
+}
+
+.tscreens {
+  //margin-left:-10px;
+  background:black;
+  //padding:10px;
+  width:730px;
+  }
+
+.tscreens .span2 {
+  height:100px;
+  background:black;
+  //margin-left:-4px;
+
+  }
+  
+#tpopup .teventpopup {
+  //margin: 40px 0 0 0;
+  //border:10px solid black; 
+  box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+  background:white;   
+  padding:20px 0 0 0;
+  } 
+
+#tpopup .tpopuprasp {
+  color: white;
+  background:black;  
+}
+
+#tpopup {
+    padding:60px 0;
+ 
+}
+
+#tpopup .tpopuprasp p {
+  padding:20px 0 0 20px;
+  
+}
